@@ -7,10 +7,10 @@ Background:
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-@YANA @SC_568904566
+@SC_568904566 @YANA
 Scenario: 
 Given a $100 microwave was sold on 2015-11-03
-And today is 2015-11-18
+And today is 2015-11-18 modified
 
 @YANA @SC_584579559
 Scenario: 
