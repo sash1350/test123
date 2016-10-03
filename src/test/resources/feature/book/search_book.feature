@@ -1,4 +1,4 @@
-@YANA @ST_565490003
+@YANA @ST_1040426359
 Feature: Book search
   To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
 
@@ -7,22 +7,22 @@ Background:
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-@SC_568904566 @YANA
+@YANA @SC_1031746494
 Scenario: 
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18 modified once again and once again
 
-@YANA @SC_584579559
+@YANA @SC_1020833391
 Scenario: 
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18 modified
 
-@YANA @SC_610956204
+@YANA @SC_1032621587
 Scenario: 
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18 modified
 
-@YANA @SC_615913590
+@YANA @SC_980363578
 Scenario: Search books by publication year
 Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 And another book with the title 'Some other book', written by 'Tim Tomson', published in 23 August 2014
