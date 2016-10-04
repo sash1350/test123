@@ -1,4 +1,4 @@
-@tagtagtag @this_is_story_tag @this-is-another-tag-very-new-and-vey-beautiful @ST_404913965
+@tagtagtag @this_is_story_tag @this-is-another-tag-very-new-and-vey-beautiful @ST_931740914
 Feature: Update this name
 I want to see new description
 
@@ -6,7 +6,7 @@ Background:
 
 Given there is some background
 
-@first_scenario_tag @SC_387519869
+@first_scenario_tag @SC_917658314
 Scenario: First scenario
 There is scenario description
 Lorem ipsum dolor sit amet, mea dico volumus copiosae cu, debet movet doctus ex nec, at adipisci interpretaris usu. Has feugiat ponderum te. Pri nisl case id, te est diam sint regione, in alii philosophia sit. Ius ancillae voluptaria cu. Ut eam dicta partiendo.
@@ -16,14 +16,14 @@ In mea tibique appetere perfecto, in iudico maluisset maiestatis usu. Augue disc
 Given I created scenario
 Then I see it in Relime
 
-@second_scenario_tag @SC_423706921
+@second_scenario_tag @SC_890934903
 Scenario: Second scenario
 Some description
 #comment
 Given I created scenario
 Then I see it in Relime
 
-@third_scenario_tag @SC_355012342
+@third_scenario_tag @SC_903085163
 Scenario Outline: Third scenario
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
@@ -41,7 +41,7 @@ Examples:
 |stive|4|45000.0|
 
 
-@fourth_scenario_tag @SC_434268560
+@fourth_scenario_tag @SC_853920786
 Scenario: Fourth scenario
 Given I created new scenario
 Then I see it synced in Relime

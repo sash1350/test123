@@ -1,4 +1,4 @@
-@YanaTag1 @ST_358115988
+@YanaTag1 @ST_881614666
 Feature: Salary Management
 
 Background: 
@@ -17,7 +17,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@YanaTag2 @SC_371063872
+@YanaTag2 @SC_897801446
 Scenario: 
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -33,7 +33,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@YanaTag3 @SC_426746252
+@YanaTag3 @SC_933387386
 Scenario: 
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -49,7 +49,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@YanaTag4 @SC_432757495
+@YanaTag4 @SC_851700307
 Scenario: Modify an employee's salary
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -65,7 +65,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@YanaTag5 @SC_407291039
+@YanaTag5 @SC_927518311
 Scenario Outline: Modify an employee's salary
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
@@ -87,12 +87,12 @@ Examples:
 |8|fethry|66500.0|
 
 
-@YanaTag6 @SC_347244294
+@YanaTag6 @SC_907994583
 Scenario: puk
 When kek
 And lal
 
-@YanaTag7 @SC_412800101
+@YanaTag7 @SC_854948662
 Scenario: PUK NAME
 DESCRIPTION PUK
 Given kak
