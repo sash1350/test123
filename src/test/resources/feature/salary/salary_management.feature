@@ -1,4 +1,4 @@
-@YanaTag1 @ST_1024500702
+@YanaTag1 @ST_358115988
 Feature: Salary Management
 
 Background: 
@@ -17,7 +17,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@YanaTag2 @SC_1021095232
+@YanaTag2 @SC_371063872
 Scenario: 
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -33,7 +33,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@YanaTag3 @SC_1044690989
+@YanaTag3 @SC_426746252
 Scenario: 
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -49,7 +49,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@YanaTag4 @SC_1003610459
+@YanaTag4 @SC_432757495
 Scenario: Modify an employee's salary
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -65,7 +65,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@YanaTag5 @SC_1031600766
+@YanaTag5 @SC_407291039
 Scenario Outline: Modify an employee's salary
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
@@ -87,12 +87,12 @@ Examples:
 |8|fethry|66500.0|
 
 
-@YanaTag6 @SC_993603121
+@YanaTag6 @SC_347244294
 Scenario: puk
 When kek
 And lal
 
-@YanaTag7 @SC_981140049
+@YanaTag7 @SC_412800101
 Scenario: PUK NAME
 DESCRIPTION PUK
 Given kak
