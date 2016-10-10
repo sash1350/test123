@@ -7,6 +7,19 @@ Background: BACKBACKBACK
 Given a background
 And several conditions in it
 
+@SC_144990759 @YANA @scenario_003
+Scenario Outline: Check scenario
+Given normal text
+And another row
+And another row
+And another row <col2>
+And another row
+And another row <col1>
+
+Examples: 
+|col1|col2|
+|val1|val2|
+
 @YANA @scenario_001 @SC_141029705
 Scenario: scenario without background
 some description
@@ -28,13 +41,4 @@ Examples:
 |2|2|
 |3|3|
 
-
-@YANA @scenario_003 @SC_144990759
-Scenario: Check scenario
-Given normal text
-And another row
-And another row
-And another row
-And another row
-And another row
 
