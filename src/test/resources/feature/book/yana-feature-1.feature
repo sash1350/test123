@@ -1,4 +1,4 @@
-@ST_665358912 @YANA @t
+@ST_665358912 @YANA
 Feature: yana feature 1
 Check Background without given keywordjh
 
