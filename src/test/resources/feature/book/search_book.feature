@@ -1,6 +1,6 @@
 @ST_127254566 @tag @YANA
 Feature: Book search
-  To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
+To allow a customer to find his favourite books quickly, the
 
 Background: 
 
