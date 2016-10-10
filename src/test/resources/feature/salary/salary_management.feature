@@ -1,4 +1,4 @@
-@ST_151624359 @YanaTag1 @t
+@ST_151624359 @YanaTag1
 Feature: Salary Management
 
 Background: 
