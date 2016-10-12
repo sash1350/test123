@@ -30,14 +30,6 @@ Examples:
 |||
 |||
 |||
-|||
-|||
-|||
-|1||
-|||
-|||
-|||
-|||
 
 @YANA @scenario_001 @SC_631804784
 Scenario: scenario without background
