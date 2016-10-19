@@ -10,7 +10,7 @@ And several conditions in it
 @SC_29 @YANA @scenario_002
 Scenario Outline: example table scenario
 with a description
-Given some certain step asdasdas
+Given some certain step asdas
 And some step with ET <parameter>
 When I run the test asdasd
 Then <all the parameters> are applied
