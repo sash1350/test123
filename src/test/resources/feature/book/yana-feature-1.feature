@@ -7,6 +7,13 @@ Background: BACKBACKBACK
 Given a background
 And several conditions in it
 
+@SC_28 @YANA @scenario_001 @SC_631804784
+Scenario: scenario without background
+some description
+When there is a background in the feature
+Then scenario may not contain Given precondition
+And nobody cares a
+
 @SC_29 @YANA @scenario_002
 Scenario Outline: example table scenario
 with a description
@@ -30,13 +37,6 @@ Examples:
 |||
 |||
 |||
-
-@SC_28 @YANA @scenario_001 @SC_631804784
-Scenario: scenario without background
-some description
-When there is a background in the feature
-Then scenario may not contain Given precondition
-And nobody cares a
 
 @SC_30 @YANA @scenario_003 @SC_645656198
 Scenario Outline: Check scenario
