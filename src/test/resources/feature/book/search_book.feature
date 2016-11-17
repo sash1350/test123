@@ -1,4 +1,4 @@
-@ST_8 @tag @YANA @tag1
+@ST_8 @tag @YANA @tag1 @tag2
 Feature: Book search 1
 To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
 
