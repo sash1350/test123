@@ -1,2 +1,2 @@
-@ST_7 @ST_622298099
+@ST_1
 Feature: test

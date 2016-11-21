@@ -1,4 +1,4 @@
-@ST_8 @tag @YANA @tag1 @tag2
+@ST_2 @tag @YANA @tag1 @tag2
 Feature: Book search
 To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
 
@@ -7,7 +7,7 @@ Background:
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-@SC_23 @YANA
+@SC_2 @YANA
 Scenario Outline: 
 Given <table>
 And <column>
@@ -22,17 +22,18 @@ Examples:
 |table|column|data cell|example parameter|
 |||||
 
-@SC_24 @YANA @SC_672543912
+
+@SC_3 @YANA
 Scenario: 
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18 modified
 
-@SC_25 @YANA @SC_639042450
+@SC_4 @YANA
 Scenario: 
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18 modified
 
-@SC_26 @YANA @SC_623973584
+@SC_5 @YANA
 Scenario: Search books by publication year
 Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 And another book with the title 'Some other book', written by 'Tim Tomson', published in 23 August 2014

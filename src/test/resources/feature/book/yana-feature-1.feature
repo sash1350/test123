@@ -1,4 +1,4 @@
-@ST_9 @YANA @t @ST_665358912
+@ST_3 @YANA @t
 Feature: yana feature 1
 Check Background without given keywordjh
 
@@ -7,14 +7,14 @@ Background: BACKBACKBACK
 Given a background
 And several conditions in it
 
-@SC_28 @YANA @scenario_001 @SC_631804784
+@SC_7 @YANA @scenario_001
 Scenario: scenario without background
 some description
 When there is a background in the feature
 Then scenario may not contain Given precondition
 And nobody cares a
 
-@SC_29 @YANA @scenario_002
+@SC_8 @YANA @scenario_002
 Scenario Outline: example table scenario
 with a description
 Given some certain step asdas asdasdasd
@@ -38,7 +38,8 @@ Examples:
 |||
 |||
 
-@SC_30 @YANA @scenario_003 @SC_645656198
+
+@SC_9 @YANA @scenario_003
 Scenario Outline: Check scenario
 Given normal text
 And another row

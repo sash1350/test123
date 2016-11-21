@@ -1,3 +1,3 @@
-@ST_10 @t @feature-tag @ST_629744335
+@ST_4 @t @feature-tag
 Feature: new-feature
 feature decription
