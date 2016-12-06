@@ -7,23 +7,16 @@ Background: BACKBACKBACK
 Given a background
 And several conditions in it
 
-@SC_7 @YANA @scenario_001
-Scenario: scenario without background
-some description
-When there is a background in the feature
-Then scenario may not contain Given precondition
-And nobody cares a
-
 @SC_8 @YANA @scenario_002
 Scenario Outline: example table scenario
 with a description
 Given some certain step asdas asdasdasd
-And some step with ET <parameter>
+And some step with ET <parameter   1>
 When I run the test asdasd azxczxc
-Then <all the parameters> are applied 123123
+Then <all the parameters      1> are applied 123123
 
 Examples: 
-|parameter|all the parameters|
+|parameter   1|all the parameters      1|
 |1|1|
 |2|2|
 |3|3|
@@ -38,6 +31,12 @@ Examples:
 |||
 |||
 
+@SC_7 @YANA @scenario_001
+Scenario: scenario without background
+some description
+When there is a background in the feature
+Then scenario may not contain Given precondition
+And nobody cares a
 
 @SC_9 @YANA @scenario_003
 Scenario Outline: Check scenario
