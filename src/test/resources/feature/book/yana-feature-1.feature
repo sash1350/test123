@@ -13,10 +13,10 @@ with a description
 Given some certain step asdas asdasdasd
 And some step with ET <parameter   1>
 When I run the test asdasd azxczxc
-Then <all the parameters      1> are applied 123123
+Then <all the parameter1> are applied 123123
 
 Examples: 
-|parameter   1|all the parameters      1|
+|parameter   1|all the parameter1|
 |1|1|
 |2|2|
 |3|3|
@@ -30,7 +30,6 @@ Examples:
 |||
 |||
 |||
-
 
 @SC_8 @YANA @scenario_001
 Scenario: scenario without background
