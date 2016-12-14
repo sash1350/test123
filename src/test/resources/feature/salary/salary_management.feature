@@ -17,10 +17,10 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@SC_24
-Scenario: scenario 7
-When 1
-Then 2
+@SC_25
+Scenario: scenario 8
+Given 2
+Then 3
 
 @SC_16 @YanaTag2
 Scenario: 
@@ -102,3 +102,8 @@ Scenario: PUK NAME
 DESCRIPTION PUK
 Given kak
 And puk
+
+@SC_24
+Scenario: scenario 7
+When 1
+Then 2
