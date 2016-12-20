@@ -17,11 +17,6 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750 modified
 
-@SC_28
-Scenario: scenario 11
-Given 11
-Then 11 modified
-
 @SC_16 @YanaTag2
 Scenario: 
 Given the salary management system is initialized with the following data
@@ -122,3 +117,8 @@ Then 4
 Scenario: scenario 10
 When 10
 Then 10
+
+@SC_28
+Scenario: scenario 11
+Given 11
+Then 11 modified
