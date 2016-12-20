@@ -4,7 +4,7 @@ I want to see new description
 
 Background: 
 
-Given there is some background
+Then there is some background
 
 @SC_11 @first_scenario_tag
 Scenario: First scenario
