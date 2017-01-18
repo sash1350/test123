@@ -1,4 +1,4 @@
-@ST_2 @tag @YANA @tag1 @tag2
+@ST_3 @tag @YANA @tag1 @tag2
 Feature: Book search1
 To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
 
@@ -44,7 +44,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title 'One good book'
 Then i want do smth with "smth"
 
-@SC_22
+@SC_6
 Scenario Outline: name1
 Given <table>
 And <column>

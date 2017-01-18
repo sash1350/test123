@@ -1,2 +1,2 @@
-@ST_1
+@ST_2
 Feature: test
