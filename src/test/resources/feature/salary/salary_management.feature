@@ -17,7 +17,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750 modified
 
-@SC_28 @YanaTag2
+@SC_19 @YanaTag2
 Scenario: 
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -33,7 +33,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@SC_29 @YanaTag3
+@SC_20 @YanaTag3
 Scenario: 
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -49,7 +49,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@SC_19 @YanaTag4
+@SC_21 @YanaTag4
 Scenario: Modify an employee's salary
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -65,7 +65,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@SC_20 @YanaTag5
+@SC_22 @YanaTag5
 Scenario Outline: Modify an employee's salary
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
@@ -87,38 +87,38 @@ Examples:
 |8|fethry|66500.0|
 
 
-@SC_21 @YanaTag6
+@SC_23 @YanaTag6
 Scenario: puk
 When kek
 And lal
 
-@SC_22 @YanaTag7
+@SC_24 @YanaTag7
 Scenario: PUK NAME
 DESCRIPTION PUK
 Given kak
 And puk
 
-@SC_23
+@SC_25
 Scenario: scenario 7
 When 1
 Then 2
 
-@SC_24
+@SC_26
 Scenario: scenario 8
 Given 2
 Then 3
 
-@SC_25
+@SC_27
 Scenario: scenario 9
 When 3
 Then 4
 
-@SC_26
+@SC_28
 Scenario: scenario 10
 When 10
 Then 10
 
-@SC_27
+@SC_29
 Scenario: scenario 11
 Given 11
 Then 11 modified
