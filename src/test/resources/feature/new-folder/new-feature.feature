@@ -2,13 +2,13 @@
 Feature: <script>alert('xss')</script>
 feature decription
 
-@SC_11
+@SC_10
 Scenario: name123
 Given 1
 When 2
 Then 3
 
-@SC_12
+@SC_11
 Scenario: <script>alert('XSS');</script>
 Given step 1
 When step 2
