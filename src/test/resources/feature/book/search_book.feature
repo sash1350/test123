@@ -7,8 +7,8 @@ Background:
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-@SC_33
-Scenario: scenario 4
+@SC_34
+Scenario: scenario 5
 Given 1
 Then 2
 
@@ -68,5 +68,10 @@ Then 2
 
 @SC_32
 Scenario: scenario 3
+Given 1
+Then 2
+
+@SC_33
+Scenario: scenario 4
 Given 1
 Then 2
