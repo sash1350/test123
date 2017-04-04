@@ -7,8 +7,8 @@ Background:
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-@SC_30
-Scenario: scenario 1
+@SC_31
+Scenario: scenario 2
 Given 1
 Then 2
 
@@ -54,3 +54,9 @@ And <example parameter>
 Examples: 
 |table|column|data cell|example parameter|
 |||||
+
+
+@SC_30
+Scenario: scenario 1
+Given 1
+Then 2
